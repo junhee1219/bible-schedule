@@ -3,10 +3,11 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('my-cache').then(function(cache) {
       return cache.addAll([
-        'styles.css',
+        'index-ce7cf7e7.css',
         'script.js',
-        'index.html',
-        '/julybible.github.io/'
+        'index.html'
+        'index-7dc1f56b.js',
+        '/',
       ]);
     })
   );
