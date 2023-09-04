@@ -45,7 +45,9 @@
   font-weight: 400;
 }
 body {
-  min-height: 100vh;
+  height: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+  max-height: -webkit-fill-available;
   color: var(--color-text);
   background: var(--color-background);
   transition: color 0.5s, background-color 0.5s;
@@ -512,6 +514,8 @@ body {
   font-size: 0.7rem;
   color: #000;
   height: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+  max-height: -webkit-fill-available;
   width: 100%;
 }
 
