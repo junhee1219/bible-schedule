@@ -504,18 +504,14 @@ button.swiper-pagination-bullet {
   --c-text-secondary: var(--c-gray-200);
   --c-text-tertiary: var(--c-gray-500);
 }
-@supports (-webkit-touch-callout: none) {
-    body {
-      height: -webkit-fill-available;
-    }
-  }
+
 body {
   padding-top: 10px;
   background-color: var(--c-gray-800);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 0.7rem;
   color: #000;
-  height: 100vh;
+  height: -webkit-fill-available;
   width: 100%;
 }
 
